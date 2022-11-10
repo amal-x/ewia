@@ -6,11 +6,27 @@ input::-webkit-inner-spin-button {
     margin: 0;
 }
 
+
 /* Firefox */
 input[type=number] {
     -moz-appearance: textfield;
 }
-
+.b1{
+    width: 96px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 29px;
+}
+.logo-b{
+    width: 294px;
+    height: 154px;
+    border-color: black;
+    border-style: solid;
+    display: block;
+    margin-left: -3px;
+   
+}
 a {
     text-decoration: none;
     color: inherit;
@@ -48,13 +64,13 @@ html {
 }
 
 .top-con {
-    background-color: black;
+    background-color: white;
     height: 64px;
     min-width: 1200px;
 }
 
 .top-info {
-    width: 1200px;
+    width: 1017px;
     margin: auto;
     height: 64px;
     display: flex;
@@ -66,15 +82,16 @@ html {
 }
 
 .mob-con {
-    padding-left: 15px;
+    padding-left: -2px;
     display: flex;
     height: 64px;
     align-items: center;
 }
 
 .mob-con .icon {
-    color: #d7d7d7;
+    color: black;
     font-size: 23px;
+    padding-right: 6px;
 }
 
 .mob-con .content {
@@ -85,6 +102,7 @@ html {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+    border-left-style: groove;
 }
 
 .phone-text {
@@ -93,12 +111,12 @@ html {
 
     font-weight: 500;
 
-    color: #d7d7d7;
+    color: black;
 }
 
 .phone-head {
     font-size: 12px;
-    color: #EA6404;
+    color: black;
     text-align: center;
     width: 100%;
     font-weight: 600;
@@ -112,7 +130,7 @@ html {
 }
 
 .mail-con .icon {
-    color: #d7d7d7;
+    color: black;
     font-size: 24px;
 }
 
@@ -155,10 +173,10 @@ html {
 }
 
 .splash-con {
-    background-color: #193893;
-    background: radial-gradient(circle, rgba(45, 119, 201, 1) 0%, rgba(25, 56, 147, 1) 59%, rgba(25, 56, 147, 1) 100%);
+    background-color: currentColor;
+   /* background: radial-gradient(circle, rgba(45, 119, 201, 1) 0%, rgba(25, 56, 147, 1) 59%, rgba(25, 56, 147, 1) 100%);
     background-position-x: 298px;
-    min-width: 1200px;
+    min-width: 1200px;*/
 }
 
 .splash-data {
@@ -177,7 +195,9 @@ html {
 
 .logoimg {
 
-    width: 143px;
+    width: 142px;
+    margin-top: -212px;
+    margin-left: -151px;
 }
 
 .splash-col1 {
@@ -192,6 +212,9 @@ html {
 .caption-1 {
     text-align: -webkit-center;
     color: white;
+    padding-left: 39px;
+    width: 968px;
+    padding-top: 88px;
 }
 
 .caption-1 h1 {
@@ -242,9 +265,9 @@ html {
 
 .xl-h1 {
 
-    text-align: center;
+  
 
-    color: #ffffff;
+   color: black;
 
     font-size: 34px;
 
@@ -330,18 +353,20 @@ html {
 }
 
 .appr-con {
-    background-color: #000000;
+   
     background-position-x: 298px;
     min-width: 1200px;
     /* height: 199px; */
+    background-color: #7c7c7c;
 }
 
 .appr-view {
-    width: 1200px;
-    margin: auto;
-    padding-top: 26px;
-    padding-bottom: 26px;
+    width: 579px;
+   /* margin: auto;
+    padding-top: 188px;
+    padding-bottom: 31px;
     /* padding-bottom: 3px; */
+ /*   margin-left: 242px;*/
 }
 
 .appr-items {
@@ -462,8 +487,9 @@ html {
 .faq-item.collapsed {
     margin-bottom: 10px;
     box-shadow: none;
+    width: 381px;
     background: #eeeeee;
-    border: solid 1px #dfdada;
+    border: solid 3px #dfdada;
 }
 
 .faq-item-head {
@@ -831,6 +857,7 @@ h1 {
     align-items: center;
 }
 
+
 .service-con {
     /* background-color: #1e1e1e; */
     height: 52px;
@@ -971,7 +998,7 @@ h1 {
     min-width: 1200px;
     padding-top: 17px;
     padding-bottom: 21px;
-    background: #1C1C1C;
+    background: #7c7c7c;
 }
 
 .proof-view {
@@ -979,7 +1006,7 @@ h1 {
     margin: auto;
     padding-top: 49px;
     padding-bottom: 24px;
-    background: #091a42;
+    background: white;
     border-radius: 15px;
     border: solid 1px #6275974a;
     position: relative;
@@ -989,14 +1016,14 @@ h1 {
 
 .proof-h1 {
     font-size: 19px;
-    color: white;
+    
     text-align: center;
     font-weight: 500;
 }
 
 .proof-h2 {
     text-align: center;
-    color: #d7d7d7;
+   
     padding-top: 10px;
 }
 
@@ -1021,7 +1048,7 @@ h1 {
 }
 .proof-bttn-view {
 }
-.proof-bttn {background: #193893;color: white;font-size: 14px;font-weight: 500;padding-top: 15px;padding-bottom: 15px;padding-left: 15px;padding-right: 15px;border-radius: 10px;width: 100%;cursor: pointer;}
+.proof-bttn {background: #193893;color: white;font-size: 14px;font-weight: 500;padding-top: 15px;padding-bottom: 15px;border-color: #7c7c7c; padding-left: 15px;padding-right: 15px;border-radius: 10px;width: 100%;cursor: pointer;}
 .proof-window
 {
     position: fixed;
@@ -1044,7 +1071,7 @@ h1 {
     align-items: center;
 }
 .appr-loc-con {
-    background-color: #193893;
+   
     background-position-x: 298px;
     min-width: 1200px;
     /* height: 199px; */
@@ -1052,10 +1079,10 @@ h1 {
 }
 
 .appr-loc-view {
-    width: 1200px;
-    margin: auto;
+    width: 660px;
+   /* margin: auto;
     padding-top: 37px;
-    padding-bottom: 25px;
+    padding-bottom: 25px;*/
 }
 
 .appr-loc-items {
@@ -1254,18 +1281,20 @@ h1 {
 
 .services-row1 {
     display: flex;
-    gap: 50px;
+    gap: 70px;
     justify-content: center;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
+    flex-wrap: wrap;
+    align-content: flex-end;
 }
 
 .services-item {
-    width: 250px;
+    width: 565px;
     /* height: 250px; */
     /* margin-bottom: 10px; */
     /* overflow: hidden; */
     position: relative;
-    transition: all ease 1s;
+    /* transition: all ease 1s;*/
 }
 
 .services-item img {
@@ -1283,26 +1312,26 @@ h1 {
 
 .services-text {
     position: absolute;
-    bottom: 0;
+    bottom: -63px;
     text-align: center;
     width: 100%;
-    background: #000000b0;
+    /* background: #000000b0; */
     height: 60px;
     font-size: 14px;
     font-weight: 600;
-    color: #ffffff;
+    /* color: #ffffff; */
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: -69px;
+    padding-right: 92px;
 }
 
 .services-image-container {
-    width: 250px;
-    height: 190px;
+    width: 457px;
+    height: 364px;
     background: red;
-    border-radius: 15px;
+    border-radius: 29px;
     overflow: hidden;
     position: relative;
 }
@@ -1336,9 +1365,8 @@ h1 {
 
 }
 
-.services-item:hover .services-text {
-    background-color: #131414;
-}
+.services-item:hover .services-text {}
+   
 
 @keyframes slideservice {
     0% {
