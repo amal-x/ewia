@@ -286,10 +286,7 @@
 }
 .wi{
     width: 1200px;
-    text-align: center;
-    justify-content: center;
-    justify-items: center;
-    margin-left: 296px;
+    margin: auto;
 }
 .serviesss{
     width: 436px;
