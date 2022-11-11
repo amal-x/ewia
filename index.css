@@ -460,6 +460,7 @@ h1 {
     position: relative;
     background-color: #EEEEEE;
     border-bottom: solid 1px #dfdfdf;
+    margin-top: 590px;
   
 }
 
@@ -602,7 +603,7 @@ h1 {
 .proof-view {
     width: 600px;
     margin: auto;
-    padding-top: 49px;
+    padding-top: 57px;
     padding-bottom: 24px;
     background: white;
     border-radius: 15px;
@@ -610,6 +611,7 @@ h1 {
     position: relative;
     overflow: hidden;
     box-shadow: rgb(0 0 0 / 22%) 0px 50px 100px -20px, rgb(0 0 0) 0px 30px 60px -30px;
+    margin-top: 92px;
 }
 
 .proof-h1 {
