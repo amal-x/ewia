@@ -130,7 +130,7 @@
     border-bottom: solid 1px #ffffff4a;
     
     background-color: white;
-    margin-top: 217px;
+    margin-top: 65px;
    
     
 }
@@ -269,7 +269,7 @@
    
    
     margin: auto;
-    margin-top: 52px;
+    margin-top: 126px;
     width: 760px;
     color: aliceblue;
     text-align: center;
@@ -293,7 +293,7 @@
     margin: auto;
 }
 .serviesss{
-    width: 436px;
+    width: 350px;
     height: 557px;
     background-color: white;
     margin-left: 0px;
@@ -303,7 +303,7 @@
 }
 .second{
     background-color:#c9ab51;
-    height: 2544px;
+    height:1996px;
     width: auto;
 }
 .flex{
@@ -319,9 +319,9 @@
     font-size: 26px;
 }
 .im{
-    width: 357px;
+    width: 267px;
     height: 355px;
-    object-fit: fill;
+    object-fit: cover;
 }
 .cli-con {
     
@@ -966,6 +966,7 @@ h1 {
     padding-top: 15px;
     gap: 23px;
     overflow: hidden;
+    height: 140px;
 }
 
 .appr-item {
